@@ -1,0 +1,246 @@
+ /* Reset de base */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3a6db5;
+}
+
+/* Section principale */
+main {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+main h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #444;
+}
+
+main p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Catégories de livres */
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.category-item {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.category-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.category-item:hover {
+    transform: translateY(-10px);
+}
+
+.category-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #444;
+}
+
+.category-item p {
+    padding: 0 15px 15px;
+    color: #777;
+}
+
+/* Bouton moderne */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3a6db5;
+}
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ffdd57;
+}
+
+/* Section Hero */
+.hero {
+    text-align: center;
+    background: linear-gradient(to right, #4a90e2, #56cfe1);
+    color: #fff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Catégories */
+.categories {
+    margin: 40px auto;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.categories h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.card {
+    display: inline-block;
+    width: 280px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    padding: 0 10px 15px;
+    color: #777;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+}

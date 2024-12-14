@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Bibliothèque</title>
+  <!-- Lien vers le fichier CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div class="bg-background text-foreground min-h-screen">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="logo">Ma Bibliothèque</div>
+      <div>
+        <a href="#" class="link">Accueil</a>
+        <a href="#" class="link">Livres</a>
+      </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section class="hero">
+      <h1>Bienvenue à Ma Bibliothèque</h1>
+      <p>Trouvez votre prochaine lecture parmi notre vaste collection de livres.</p>
+    </section>
+
+    <!-- Section Catégories -->
+    <section class="categories">
+      <h2>Catégories de Livres</h2>
+      <div class="card">
+        <img src="static\css\img\litterature.jpg" alt="Littérature" class="image"> 
+        <p>Découvrez les chefs-d'œuvre littéraires.</p>
+      </div>
+      <div class="card">
+        <img src="static\css\img\science-fiction.jpg" alt="Science-Fiction" class="image">
+        <h3>Science-Fiction</h3>
+        <p>Explorez des mondes fantastiques.</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2023 Ma Bibliothèque. Tous droits réservés.</p>
+    </footer>
+  </div>
+</body>
+</html>
